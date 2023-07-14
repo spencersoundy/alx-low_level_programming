@@ -2,6 +2,7 @@
 
 /**
  * main - all possible combinatons of 3 digits are printed
+ *
  * Return: Always 0 (success)
  */
 int main(void)

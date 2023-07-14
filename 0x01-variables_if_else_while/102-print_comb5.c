@@ -1,8 +1,9 @@
-#include
+#include <stdio.h>
 
 /**
  * main - all combinations of 2 digit numbers are printed
- * retune: always 0 (success)
+ *
+ * Return: always 0 (success)
  */
 int main(void)
 {

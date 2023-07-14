@@ -3,15 +3,15 @@
 /**
  * main - lowercase alphabets printed
  * new line addedd
- * RETURN: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char ch;
+	char s;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (s = 'a'; s <= 'z'; s++)
 	{
-		putchar(ch);
+		putchar(s);
 	}
 	putchar('\n');
 	return (0);
