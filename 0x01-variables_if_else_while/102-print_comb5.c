@@ -3,7 +3,7 @@
 /**
  * main - all combinations of 2 digit numbers are printed
  *
- * Return: always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
