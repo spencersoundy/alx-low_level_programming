@@ -11,7 +11,7 @@ void time_table(void)
 	int f;
 	int g;
 
-	for (e = 0; e <= 9; a++)
+	for (e = 0; e <= 9; e++)
 	{
 		for (f = 0; f <= 9; f++)
 		{
@@ -36,7 +36,7 @@ void time_table(void)
 			else 
 			{
 				_putchar ((g / 10) + '0');
-				_putchar ((g % 10) + '0'0);
+				_putchar ((g % 10) + '0');
 				if (f < 9)
 				{
 				_putchar (',');
