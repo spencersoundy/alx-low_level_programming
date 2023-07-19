@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * main - debugging
+ * main - Debugging.
  *
  * Return: 0
  */
+
 int main(void)
 {
 	int i;
