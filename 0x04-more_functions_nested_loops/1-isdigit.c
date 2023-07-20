@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  _isdigit - checks the code 
+ * _isdigit - checks the code
  * @c: c is interger
  *
  *  Return: Always 0
