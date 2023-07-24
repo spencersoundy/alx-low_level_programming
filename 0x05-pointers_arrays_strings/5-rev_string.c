@@ -23,7 +23,7 @@ void rev_string(char *s)
 	{
 		a = s[y - z];
 		b = s[z];
-		s[z] = aa;
+		s[z] = a;
 		s[y - z] = b;
 		z--;
 	}
