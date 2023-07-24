@@ -19,7 +19,7 @@ void rev_string(char *s)
 	}
 	y = x - 1;
 	z = y / 2;
-	while z >= 0
+	while (z >= 0)
 	{
 		a = s[y - z];
 		b = s[z];
