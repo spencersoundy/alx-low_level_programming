@@ -10,10 +10,11 @@
 
 void reverse_array(int *a, int n)
 {
-	int *d = a;
-	int *e = a;
-	int z;
-	int f = 0;
+	int *d, *e, z;
+	int f;
+
+	d = a;
+	e = a;
 
 	for (f = 0; f < n - 1; f++)
 	{
