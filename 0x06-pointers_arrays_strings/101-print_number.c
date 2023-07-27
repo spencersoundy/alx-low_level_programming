@@ -9,29 +9,29 @@
 
 void print_number(int n)
 {
-	unsigned int r, t, count;
+	unsigned int m, d, count;
 
 	if (n < 0)
 	{
 		_putchar(45);
-		r = n * -1;
+	m = n * -1;
 	}
 	else
 	{
-		r = n;
+		m = n;
 	}
 
-	t = r;
+	d = m;
 	count = 1;
 
-	while (t > 9)
+	while (d > 9)
 	{
-		t /= 10;
+		d /= 10;
 		count *= 10;
 	}
 
-	for (count = 0; count >= 1; count /= 10)
+	for (; count >= 1; count /= 10)
 	{
-		_putchar(((r / count) % 10) + 48);
+		_putchar(((m / count) % 10) + 48);
 	}
 }
