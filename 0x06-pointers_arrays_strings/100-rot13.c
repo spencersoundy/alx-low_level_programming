@@ -7,23 +7,23 @@
  * Return: pointer to destination
  */
 
-char *rot13(char *str)
+char *rot13(char *s)
 {
-	int count = 0, s;
+	int count = 0, i;
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	CHAR ROT13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
+	char rot13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
-	while (*(str + count) != '\0')
+	while (*(s + count) != '\0')
 	{
-		for (s = 0; s < 52; s++)
+		for (i = 0; i < 52; i++)
 		{
-			if (*(str + count) == alphabet[s])
+			if (*(s + count) == alphabet[i])
 			{
-				*(str + count) == rot13[s];
+				*(s + count) == rot13[i];
 				break;
 			}
 		}
 		count++;
 	}
-	return (str);
+	return (s);
 }
